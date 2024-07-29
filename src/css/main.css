@@ -1,0 +1,19 @@
+.offcanvas-body-container {
+    width: 100%; /* Adjust width as needed */
+    text-align: center;
+}
+
+.pop:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.pop:not(.pop:hover) {
+    transform: scale(1);
+    transition: all 0.2s;
+
+}
+
+.icon {
+    font-size: 8rem;
+}
